@@ -1,0 +1,39 @@
+body{
+    background-image: url('https://images6.alphacoders.com/542/thumb-1920-542443.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+
+    &::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: inherit;
+        filter: blur(8px);
+        z-index: -1;
+    }
+}
+
+.contenido {
+    position: relative;
+    z-index: 1;
+    padding: 40px;
+    color: #2c2c2c;
+}
+.header{
+    background-color: aquamarine;
+    width: 600px;
+    border: 20px;
+    border-color: black;
+}
+.card{
+    background-color: #f3e8ff;
+    width: 368px;
+    height: 355px;
+    margin-left: 790px;
+    margin-top: 200px;
+    border-radius: 10px;
+}
