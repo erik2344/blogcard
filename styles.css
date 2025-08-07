@@ -101,23 +101,23 @@ body{
 }
 @media (max-width: 780px){
     .header{
-        width: 350px;
+        width: 200px;
         position: relative;
         top: 50px;
         left: 50px;
         right: 20px;
     }
     .card{
-        width: 300px;
+        width: 200px;
         height: 400px;
         position: absolute;
-        top: 350px;
+        top: 420px;
         left: 50px;
     }
     .contimg{
-        width: 265px;
+        width: 170px;
     }
     .comentario{
-        width: 265px;
+        width: 175px;
     }
 }
