@@ -23,8 +23,8 @@ body{
     background-color: transparent;
     position: absolute;
     width: 400px;
-    top: 200px;
-    left: 190px;
+    top: 230px;
+    left: 300px;
     text-align: left;
 }
 .text1{
@@ -46,6 +46,9 @@ body{
     background-clip: text;
     color: transparent;
     margin-top: 20px;
+    margin-bottom: 20px;
+}.text3{
+    color: #adaab1;
 }
 .card{
     background-color: #f3e8ff;
@@ -95,4 +98,18 @@ body{
 #comhed{
     position: relative;
     top: 17px;
+}
+@media (max-width: 780px){
+    .header{
+        position: relative;
+        top: 50px;
+        left: 50px;
+        right: 20px;
+    }
+    .card{
+        position: absolute;
+        top: 350px;
+        left: 50px;
+    }
+
 }
